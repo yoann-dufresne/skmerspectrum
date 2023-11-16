@@ -15,5 +15,10 @@ public:
 										: minimizer_size(m)
 										, current_position(0)
 										, sequence(sequence)
-	Skmer next();	
+	{}
+
+	Skmer next()
+	{
+		return 0;
+	}
 }
